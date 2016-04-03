@@ -18,8 +18,11 @@ public class Aufgabe2 {
 		System.out.printf("%d + %d = %d \n", zahlen[0], zahlen[1], zahlen[0] + zahlen[1]);
 		System.out.printf("%d - %d = %d \n", zahlen[0], zahlen[1], zahlen[0] - zahlen[1]);
 		System.out.printf("%d * %d = %d \n", zahlen[0], zahlen[1], zahlen[0] * zahlen[1]);
-		if (zahlen[1] != 0)
+		
+		if (zahlen[1] != 0) {
 			System.out.printf("%d / %d = %d \n", zahlen[0], zahlen[1], zahlen[0] / zahlen[1]);
+			System.out.printf("%d mod %d = %d \n", zahlen[0], zahlen[1], zahlen[0] % zahlen[1]);
+		}
 		else 
 			System.out.println("Nicht definiert !!");
 		
