@@ -1,5 +1,6 @@
 package Blatt1;
 
+// ist dieser Programmcode sicher
 public class Aufgabe1 {
 
 	public static void main(String[] args) 
