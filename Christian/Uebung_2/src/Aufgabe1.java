@@ -15,10 +15,10 @@ public class Aufgabe1 extends Application {
 		Button open = new Button("Open");
 		Button save = new Button("Save");
 		Label space = new Label("");
-		Button exit = new Button("Exit");
+		Button help = new Button("Help");
 		
 		HBox box = new HBox(10);
-		box.getChildren().addAll(open, save, space, exit);
+		box.getChildren().addAll(open, save, space, help);
 		box.setPrefWidth(400);
 		
 		// vergrößere Label automatisch, dass nicht genutzer Raum genutzt wird
