@@ -1,0 +1,24 @@
+
+public class PiTest {
+
+	public static void main(String[] args) {
+		double bk,ak;
+		double akminus = 3;
+		double bkminus = 2*Math.sqrt(3);
+		double EPSILON = 0.0005;
+		
+		do{
+			System.out.println(bkminus);
+			bk = 2/(Math.pow(bkminus, -1)+Math.pow(akminus, -1));
+			ak = Math.sqrt(akminus*bk);
+			
+			System.out.println(ak + " " + bk);
+			bkminus = bk;
+			akminus = ak;		
+			
+		}while ((bk-ak)>EPSILON);
+
+		
+	}
+
+}
