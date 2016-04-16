@@ -1,0 +1,20 @@
+package Aufgabe2;
+
+import java.util.Scanner;
+
+public class IsPalindrom {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc = new Scanner(System.in);
+		System.out.println("ein Wort");
+	}
+
+	public boolean palin(String t){
+		if (t.startsWith(t.substring(t.length()/2))) return true;
+		return false;
+	}
+	
+}
+
+

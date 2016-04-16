@@ -1,0 +1,54 @@
+package Aufgabe5;
+
+import javafx.application.Application;
+import javafx.geometry.Insets;
+import javafx.geometry.Pos;
+import javafx.scene.Scene;
+import javafx.scene.control.Button;
+import javafx.scene.control.Label;
+import javafx.scene.control.TextArea;
+import javafx.scene.control.TextField;
+import javafx.scene.layout.BorderPane;
+import javafx.scene.layout.HBox;
+import javafx.stage.Stage;
+
+public class CharCount extends Application
+{
+
+   public static void main(String[] args)
+   {
+      launch(args);
+   }
+
+   @Override
+   public void start(Stage primaryStage) throws Exception
+   {
+      BorderPane borderPane = new BorderPane();
+      
+      Label lb1 = new Label("Eingabe");
+      TextField tf1 = new TextField();
+      tf1.setMinWidth(400);
+      Button bt1 = new Button("OK");
+      
+      
+      HBox box1 = new HBox();
+      box1.setPadding(new Insets(5));
+      box1.setMargin(lb1, new Insets(5));
+      box1.setMargin(tf1, new Insets(5));
+      box1.setMargin(bt1, new Insets(5));
+      box1.getChildren().addAll(lb1,tf1,bt1);
+      borderPane.setTop(box1);
+      box1.setAlignment(Pos.CENTER_LEFT);
+      borderPane.setPadding(new Insets(10));
+      
+      
+      
+      TextArea centerText = new TextArea();
+      borderPane.setCenter(centerText);
+     
+      primaryStage.setResizable(true);
+      primaryStage.setScene(new Scene(borderPane, 700, 350));
+      primaryStage.show();
+   }
+
+}

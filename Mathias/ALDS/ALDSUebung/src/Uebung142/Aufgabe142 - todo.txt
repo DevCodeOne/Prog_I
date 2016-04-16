@@ -1,0 +1,56 @@
+Aufgabe 142: Implementieren Sie
+===============================
+
+die Klasse TreeNode
+-------------------
+ - siehe Folie M34 und M51
+ - setze key als char-Variable
+ - Konstruktor mit Paramtern für alle 3 Objektfelder
+ - set- / get-Methoden für für alle 3 Objektfelder
+ 
+die Klasse Tree
+---------------
+ - siehe Folie M34 und M52
+ - im Konstruktor den Beispielbaum II aus Aufgabe 141 aufbauen
+	public Tree()
+	{
+		// von Hand Baum II aus Aufgabe 141 aufbauen
+		root = new TreeNode('-',null,null);
+		
+		root.setLeftChild(new TreeNode('+',null,null));
+		root.setRightChild(new TreeNode('/',null,null));
+		
+		root.getLeftChild().setLeftChild(new TreeNode('a',null,null));		
+		// ... usw ...
+	}
+ - Methoden, die den Baum in Zwischenordnung ausgeben:
+	- public void inOrderRec() - ruft die Hilfsfunktion inOrderRecHelp mit dem Parameter root auf, da root außerhalb der Klasse nicht sichtbar ist
+	- private void inOrderRecHelp(TreeNode current)
+		Implementierung analog zu preOrder von Folie M59
+	- public void inOrderIter() - ruft die Hilfsfunktion inOrderIterHelp mit dem Parameter root auf, da root außerhalb der Klasse nicht sichtbar ist
+	- private void inOrderIterHelp(TreeNode current)
+		Implementierung analog zu Folie M60
+		Hinweis: der Eintrag 
+			current = s.top().getRightChild();
+			muss ersetzt werden durch
+			current = ((TreeNode)(s.top())).getRightChild();
+		Für diese Klasse muss auch implementiert werden (sollte schon vorhanden sein -> Aufgabe 131):
+			- Stack	(I17)
+			- StackAsArray (I18-I19)			
+			- StackOverflowException (I20)
+			- StackUnderflowException (I20)
+			
+die Klasse TreeTest
+-------------------
+	public class TreeTest 
+	{	
+		public static void main(String[] args) 
+		{
+			// Baum aufbauen (im Konstruktor von Tree)
+			Tree derBaum = new Tree();
+		
+			// Baum rekuriv und iterativ in Zwischenordnung ausgeben
+			derBaum.inOrderRec();
+			derBaum.inOrderIter();		
+		}
+	}

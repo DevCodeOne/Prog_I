@@ -1,0 +1,16 @@
+package Vorlesung160414;
+
+import java.math.BigInteger;
+
+public class test {
+
+	public static void main(String[] args) {
+		long l = 922337203685477L;
+		float f = (float)l;
+		double d = (double)l;
+		System.out.println(f - l);
+		System.out.println(d - l);
+
+	}
+
+}

@@ -1,0 +1,15 @@
+package Vorlesung160414;
+
+import java.math.BigInteger;
+
+public class test {
+
+	public static void main(String[] args) {
+		long l = 9223372036854775807L;
+		float f = l;
+		System.out.println(f - Long.MAX_VALUE);
+		System.out.println(Double.MAX_VALUE);
+
+	}
+
+}

@@ -1,0 +1,24 @@
+import javafx.application.Application;
+import javafx.geometry.Insets;
+import javafx.scene.Scene;
+import javafx.scene.control.Button;
+import javafx.scene.control.Label;
+import javafx.scene.layout.HBox;
+import javafx.scene.layout.Priority;
+import javafx.stage.Stage;
+
+public class Vorlesung160411 extends Application{
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		launch(args);
+	}
+	
+	public void start(Stage primaryStage) throws Exception {
+		
+		
+		primaryStage.setScene(new Scene());
+		primaryStage.show();
+	}
+
+}

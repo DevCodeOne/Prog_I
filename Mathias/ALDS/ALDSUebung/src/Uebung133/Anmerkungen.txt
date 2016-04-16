@@ -1,0 +1,23 @@
+Eure Aufgabe ist es nun:
+a) Die Klasse "ListNodeSL.java" anhand der Vorlesungsunterlagen
+implementieren (siehe Folien K 24 und K 25)
+b) Die Klasse "LinkedList.java" anhand der Vorlesungsunterlagen
+implementieren (siehe Folien K 27 und K 34ff)
+In dieser Klasse:
+- das Grundgerüst und die Methoden (getLast(), isEmpty(), ...) von Folie
+K 27 abschreiben bzw. fertig implementieren (anstelle der Methode
+delete(int key) verwenden wir die in der Vorlesung vorgestellten
+Methoden delete4(int key) und delete5(int key)).
+– show1() implementieren -> Folie K 34
+– show2() implementieren -> Folie K 36
+– dispose1() implementieren -> Folie K 37
+– dispose2() implementieren -> Folie K 38
+– insertFirst(int key) implementieren -> Folie K 39
+– insertLast(int key) implementieren -> Folie K 39
+– insert(int key) implementieren -> Folie K 40
+– delete4(int key) implementieren -> Folie K 48
+– delete5(int key) implementieren -> Folie K 49
+
+c) Die Klasse "ListTest.java" ist die Anwendungsklasse, welche die
+beiden anderen Klassen verwendet. Implementiert die drei Klassen und
+testet die Klasse "ListTest.java".
