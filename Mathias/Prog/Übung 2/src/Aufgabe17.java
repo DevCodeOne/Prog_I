@@ -1,9 +1,7 @@
 
 import javafx.application.Application;
-import javafx.geometry.Insets;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
-import javafx.scene.layout.FlowPane;
 import javafx.scene.layout.TilePane;
 import javafx.stage.Stage;
 

@@ -1,7 +1,5 @@
 package Vorlesung160414;
 
-import java.math.BigInteger;
-
 public class test {
 
 	public static void main(String[] args) {
