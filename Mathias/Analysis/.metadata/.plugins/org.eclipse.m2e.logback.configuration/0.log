@@ -8,4 +8,8 @@
 2016-04-16 19:35:35,476 [main] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache file is not available. Remote download required.
 =======
 2016-04-17 08:04:45,377 [main] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache file is out-of-date. Remote download required.
+<<<<<<< Updated upstream
 >>>>>>> origin/master
+=======
+2016-04-17 08:13:04,140 [main] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache file is not out-of-date. No remote download required.
+>>>>>>> Stashed changes

@@ -641,11 +641,15 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_VjfGQPcjEeWCSbGvLInvZw" elementId="org.eclipse.ui.workbench.file">
         <tags>Draggable</tags>
+<<<<<<< Updated upstream
 <<<<<<< HEAD
         <children xsi:type="menu:HandledToolItem" xmi:id="_7h4v4AP3EeaF2NwnAim0PQ" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_VKk3EPcjEeWCSbGvLInvZw"/>
 =======
         <children xsi:type="menu:HandledToolItem" xmi:id="_QR5qcARhEea9Bfma306LgA" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_VKk3EPcjEeWCSbGvLInvZw"/>
 >>>>>>> origin/master
+=======
+        <children xsi:type="menu:HandledToolItem" xmi:id="_UOJysARjEeaWfZcqa8uEgg" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_VKk3EPcjEeWCSbGvLInvZw"/>
+>>>>>>> Stashed changes
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_VjfGQfcjEeWCSbGvLInvZw" elementId="additions" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -672,11 +676,15 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_VjftUPcjEeWCSbGvLInvZw" elementId="org.eclipse.ui.workbench.navigate">
         <tags>Draggable</tags>
+<<<<<<< Updated upstream
 <<<<<<< HEAD
         <children xsi:type="menu:HandledToolItem" xmi:id="_7h9oYAP3EeaF2NwnAim0PQ" elementId="org.eclipse.ui.window.pinEditor" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_VKia1PcjEeWCSbGvLInvZw"/>
 =======
         <children xsi:type="menu:HandledToolItem" xmi:id="_QR974ARhEea9Bfma306LgA" elementId="org.eclipse.ui.window.pinEditor" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_VKia1PcjEeWCSbGvLInvZw"/>
 >>>>>>> origin/master
+=======
+        <children xsi:type="menu:HandledToolItem" xmi:id="_UOOEIARjEeaWfZcqa8uEgg" elementId="org.eclipse.ui.window.pinEditor" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_VKia1PcjEeWCSbGvLInvZw"/>
+>>>>>>> Stashed changes
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_VjftUfcjEeWCSbGvLInvZw" elementId="group.editor" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -938,6 +946,7 @@
     <bindings xmi:id="_u5L_cQP2Eea3bs7VQtO3bw" keySequence="CTRL++" command="_VKleEfcjEeWCSbGvLInvZw">
       <tags>locale:de</tags>
     </bindings>
+<<<<<<< Updated upstream
 <<<<<<< HEAD
     <bindings xmi:id="_u5MmgQP2Eea3bs7VQtO3bw" keySequence="CTRL+F11" command="_VKleL_cjEeWCSbGvLInvZw"/>
     <bindings xmi:id="_u5MmggP2Eea3bs7VQtO3bw" keySequence="CTRL+SHIFT+N" command="_VKZQ4PcjEeWCSbGvLInvZw"/>
@@ -1021,6 +1030,9 @@
 =======
     <bindings xmi:id="_PsPYoQRhEea9Bfma306LgA" keySequence="COMMAND+CTRL+F" command="_VMIWMPcjEeWCSbGvLInvZw"/>
 >>>>>>> origin/master
+=======
+    <bindings xmi:id="_TptB0QRjEeaWfZcqa8uEgg" keySequence="COMMAND+CTRL+F" command="_VMIWMPcjEeWCSbGvLInvZw"/>
+>>>>>>> Stashed changes
   </bindingTables>
   <bindingTables xmi:id="_VLZ9dfcjEeWCSbGvLInvZw" elementId="org.eclipse.mylyn.tasks.ui.views.tasks" bindingContext="_VKsL0vcjEeWCSbGvLInvZw">
     <bindings xmi:id="_VLakgPcjEeWCSbGvLInvZw" keySequence="ALT+SHIFT+ARROW_DOWN" command="_VKmsO_cjEeWCSbGvLInvZw"/>
@@ -1120,8 +1132,12 @@
     <bindings xmi:id="_VLzmF_cjEeWCSbGvLInvZw" keySequence="CTRL+D" command="_VKnTZ_cjEeWCSbGvLInvZw"/>
   </bindingTables>
   <bindingTables xmi:id="_VMI9QfcjEeWCSbGvLInvZw" contributorURI="platform:/fragment/org.eclipse.e4.ui.workbench.renderers.swt.cocoa" bindingContext="_VJt7Z_cjEeWCSbGvLInvZw">
+<<<<<<< Updated upstream
     <bindings xmi:id="_PsP_sARhEea9Bfma306LgA" keySequence="M1+W" command="_VMIWNfcjEeWCSbGvLInvZw"/>
 >>>>>>> origin/master
+=======
+    <bindings xmi:id="_Tpto4ARjEeaWfZcqa8uEgg" keySequence="M1+W" command="_VMIWNfcjEeWCSbGvLInvZw"/>
+>>>>>>> Stashed changes
   </bindingTables>
   <bindingTables xmi:id="_VMI9QfcjEeWCSbGvLInvZw" contributorURI="platform:/fragment/org.eclipse.e4.ui.workbench.renderers.swt.cocoa" bindingContext="_VJt7Z_cjEeWCSbGvLInvZw"/>
   <bindingTables xmi:id="_VtFuMfcjEeWCSbGvLInvZw" bindingContext="_VtFuMPcjEeWCSbGvLInvZw"/>
