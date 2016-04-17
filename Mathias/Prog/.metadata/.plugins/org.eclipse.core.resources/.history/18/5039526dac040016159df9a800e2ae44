@@ -21,12 +21,6 @@ public class IsPalindrom {
 		
 	}
 	
-	public static boolean ispalin(String t){
-		char[] pal = t.toLowerCase().toCharArray();
-		for (int i = 0; i<(pal.length/2)
-		if (pal[i])
-	}
-	
 }
 
 
