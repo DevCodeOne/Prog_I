@@ -641,7 +641,11 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_VjfGQPcjEeWCSbGvLInvZw" elementId="org.eclipse.ui.workbench.file">
         <tags>Draggable</tags>
+<<<<<<< HEAD
         <children xsi:type="menu:HandledToolItem" xmi:id="_7h4v4AP3EeaF2NwnAim0PQ" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_VKk3EPcjEeWCSbGvLInvZw"/>
+=======
+        <children xsi:type="menu:HandledToolItem" xmi:id="_QR5qcARhEea9Bfma306LgA" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_VKk3EPcjEeWCSbGvLInvZw"/>
+>>>>>>> origin/master
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_VjfGQfcjEeWCSbGvLInvZw" elementId="additions" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -668,7 +672,11 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_VjftUPcjEeWCSbGvLInvZw" elementId="org.eclipse.ui.workbench.navigate">
         <tags>Draggable</tags>
+<<<<<<< HEAD
         <children xsi:type="menu:HandledToolItem" xmi:id="_7h9oYAP3EeaF2NwnAim0PQ" elementId="org.eclipse.ui.window.pinEditor" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_VKia1PcjEeWCSbGvLInvZw"/>
+=======
+        <children xsi:type="menu:HandledToolItem" xmi:id="_QR974ARhEea9Bfma306LgA" elementId="org.eclipse.ui.window.pinEditor" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_VKia1PcjEeWCSbGvLInvZw"/>
+>>>>>>> origin/master
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_VjftUfcjEeWCSbGvLInvZw" elementId="group.editor" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -930,6 +938,7 @@
     <bindings xmi:id="_u5L_cQP2Eea3bs7VQtO3bw" keySequence="CTRL++" command="_VKleEfcjEeWCSbGvLInvZw">
       <tags>locale:de</tags>
     </bindings>
+<<<<<<< HEAD
     <bindings xmi:id="_u5MmgQP2Eea3bs7VQtO3bw" keySequence="CTRL+F11" command="_VKleL_cjEeWCSbGvLInvZw"/>
     <bindings xmi:id="_u5MmggP2Eea3bs7VQtO3bw" keySequence="CTRL+SHIFT+N" command="_VKZQ4PcjEeWCSbGvLInvZw"/>
     <bindings xmi:id="_u5MmgwP2Eea3bs7VQtO3bw" keySequence="CTRL+F7" command="_VKYp1_cjEeWCSbGvLInvZw"/>
@@ -1009,6 +1018,9 @@
     <bindings xmi:id="_7Ck9sAP3EeaF2NwnAim0PQ" keySequence="ALT+SHIFT+X O" command="_AcNDD_ynEeWoYO8oBeJCVg"/>
     <bindings xmi:id="_7ClkwQP3EeaF2NwnAim0PQ" keySequence="ALT+SHIFT+X E" command="_AcNDEvynEeWoYO8oBeJCVg"/>
     <bindings xmi:id="_7Cmy4AP3EeaF2NwnAim0PQ" keySequence="ALT+SHIFT+X P" command="_AcNqCfynEeWoYO8oBeJCVg"/>
+=======
+    <bindings xmi:id="_PsPYoQRhEea9Bfma306LgA" keySequence="COMMAND+CTRL+F" command="_VMIWMPcjEeWCSbGvLInvZw"/>
+>>>>>>> origin/master
   </bindingTables>
   <bindingTables xmi:id="_VLZ9dfcjEeWCSbGvLInvZw" elementId="org.eclipse.mylyn.tasks.ui.views.tasks" bindingContext="_VKsL0vcjEeWCSbGvLInvZw">
     <bindings xmi:id="_VLakgPcjEeWCSbGvLInvZw" keySequence="ALT+SHIFT+ARROW_DOWN" command="_VKmsO_cjEeWCSbGvLInvZw"/>
@@ -1100,9 +1112,16 @@
     <bindings xmi:id="_u432YgP2Eea3bs7VQtO3bw" keySequence="CTRL+O" command="_VKZ39fcjEeWCSbGvLInvZw"/>
   </bindingTables>
   <bindingTables xmi:id="_VLzmFvcjEeWCSbGvLInvZw" elementId="org.eclipse.debug.ui.console" bindingContext="_VKsLxvcjEeWCSbGvLInvZw">
+<<<<<<< HEAD
     <bindings xmi:id="_u5HuAwP2Eea3bs7VQtO3bw" keySequence="CTRL+Z" command="_VKnTZ_cjEeWCSbGvLInvZw">
       <tags>platform:win32</tags>
     </bindings>
+=======
+    <bindings xmi:id="_VLzmF_cjEeWCSbGvLInvZw" keySequence="CTRL+D" command="_VKnTZ_cjEeWCSbGvLInvZw"/>
+  </bindingTables>
+  <bindingTables xmi:id="_VMI9QfcjEeWCSbGvLInvZw" contributorURI="platform:/fragment/org.eclipse.e4.ui.workbench.renderers.swt.cocoa" bindingContext="_VJt7Z_cjEeWCSbGvLInvZw">
+    <bindings xmi:id="_PsP_sARhEea9Bfma306LgA" keySequence="M1+W" command="_VMIWNfcjEeWCSbGvLInvZw"/>
+>>>>>>> origin/master
   </bindingTables>
   <bindingTables xmi:id="_VMI9QfcjEeWCSbGvLInvZw" contributorURI="platform:/fragment/org.eclipse.e4.ui.workbench.renderers.swt.cocoa" bindingContext="_VJt7Z_cjEeWCSbGvLInvZw"/>
   <bindingTables xmi:id="_VtFuMfcjEeWCSbGvLInvZw" bindingContext="_VtFuMPcjEeWCSbGvLInvZw"/>
