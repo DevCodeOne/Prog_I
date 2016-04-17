@@ -16,7 +16,7 @@ public class Aufgabe1 extends Application {
 		Button save = new Button("Save");
 		Label space = new Label("");
 		Button help = new Button("Help");
-		
+
 		HBox box = new HBox(10);
 		box.getChildren().addAll(open, save, space, help);
 		box.setPrefWidth(400);
