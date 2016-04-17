@@ -42,7 +42,7 @@ public class PiTestBigDez {
 		xn.divide(zwei, 10, RoundingMode.HALF_UP);
 		System.out.println(xn.toString());
 		for (int i =0;i<100;i++){
-		xnp1 = a.divide(xn, 10, RoundingMode.HALF_UP); 
+		xnp1 = a.divide(xn, 10, RoundingMode.HALF_UP);
 		System.out.println(xnp1.toString());
 		xnp1 = xn.add(xnp1);
 		System.out.println(xnp1.toString());
