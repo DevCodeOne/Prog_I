@@ -1,0 +1,23 @@
+package Vorlesung160418;
+
+import java.util.Random;
+
+public class Test {
+	private static final char[] ALPHA = "abcdef".toCharArray();
+
+	public static void main(String[] args) {
+		System.out.println(getRandomStr(100));
+	}
+	
+	public static String getRandomStr(int len){
+		
+		StringBuilder strBuilder = new StringBuilder();
+		Random rd = new Random();
+		for ( int i = 0; i<len;i++){
+			int pos = rd.nextInt(ALPHA.length);
+			strBuilder.append(ALPHA[pos]);
+		}
+		return strBuilder.toString();
+	}
+
+}

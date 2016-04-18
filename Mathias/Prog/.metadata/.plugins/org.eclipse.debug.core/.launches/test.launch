@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <launchConfiguration type="org.eclipse.jdt.launching.localJavaApplication">
 <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
-<listEntry value="/Übung 3/src/Aufgabe9/Test.java"/>
+<listEntry value="/Vorlesung/src/Vorlesung160418/Test.java"/>
 </listAttribute>
 <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
 <listEntry value="1"/>
 </listAttribute>
-<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="Aufgabe9.Test"/>
-<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="Übung 3"/>
+<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="Vorlesung160418.Test"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="Vorlesung"/>
 </launchConfiguration>

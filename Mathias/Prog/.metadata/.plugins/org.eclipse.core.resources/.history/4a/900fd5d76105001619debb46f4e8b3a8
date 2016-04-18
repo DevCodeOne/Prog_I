@@ -40,7 +40,7 @@ public class Vorlesung160411 extends Application {
 		Button b1 = new Button("upperCase");
 
 		b1.setOnAction((ActionEvent e) -> {
-			//int text = Integer.parseInt(tf1.getText());
+			int text = Integer.parseInt(tf1.getText());
 			//tf1.setText(text);
 		});
 
