@@ -51,7 +51,7 @@ public class CharCount extends Application {
 					if (((int) tf1.getText().toLowerCase().charAt(j)) == ascii)
 						n++;
 				}
-				if (n>0) s += ((char) ascii + " : " + n + System.getProperty("line.separator"));
+				if (n>0) s += ((char) ascii + " : " + n + "\n");
 				ascii++;
 			}
 			ta.setText(s);

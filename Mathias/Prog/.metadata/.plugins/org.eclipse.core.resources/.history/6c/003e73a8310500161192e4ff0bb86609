@@ -9,7 +9,6 @@ public class IsPalindrom {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("ein Wort");
 		System.out.println(palin(sc.next()));
-		sc.close();
 	}
 
 	public static boolean palin(String t) {
@@ -26,7 +25,7 @@ public class IsPalindrom {
 	public static boolean ispalin(String t) {
 		char[] pal = t.toLowerCase().toCharArray();
 		for (int i = 0; i < (pal.length / 2); i++) {
-			if (pal[i] != pal[pal.length-1 - i])
+			if (pal[i] != pal[pal.length - i])
 				return false;
 		}
 		return false;
