@@ -1,7 +1,5 @@
 package Uebung130;
 
-import java.util.Scanner;
-
 public class Stack{
 	Object[] s;
 	int index = -1;
