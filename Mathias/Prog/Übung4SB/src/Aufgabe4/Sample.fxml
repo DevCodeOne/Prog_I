@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="171.0" prefWidth="296.0" xmlns="http://javafx.com/javafx/8.0.65" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Aufgabe4.SampleController">
+   <children>
+      <Button layoutX="140.0" layoutY="92.0" mnemonicParsing="false" onAction="#bt1OnAction" text="Button" />
+      <Label layoutX="9.0" layoutY="23.0" text="Ankunftszeit" />
+      <TextField fx:id="tf1" layoutX="140.0" layoutY="18.0" prefHeight="27.0" prefWidth="137.0" />
+      <Label layoutX="9.0" layoutY="54.0" text="Verspätung in Min" />
+      <TextField fx:id="tf2" layoutX="140.0" layoutY="49.0" prefHeight="27.0" prefWidth="137.0" />
+      <Label layoutX="9.0" layoutY="137.0" text="Neue Ankunftszeit" />
+      <TextField fx:id="tf3" layoutX="140.0" layoutY="132.0" prefHeight="27.0" prefWidth="137.0" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="284.0" prefWidth="449.0" xmlns="http://javafx.com/javafx/8.0.65" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Aufgabe6.SampleController">
+   <children>
+      <Button layoutX="356.0" layoutY="132.0" mnemonicParsing="false" onAction="#bt1OnAction" text="Button" />
+      <Label layoutX="16.0" layoutY="10.0" text="Vergleichsstring" />
+      <TextField fx:id="tf1" alignment="CENTER" layoutX="16.0" layoutY="30.0" prefHeight="27.0" prefWidth="415.0" />
+      <Label layoutX="10.0" layoutY="182.0" text="String" />
+      <TextField fx:id="tfString" alignment="CENTER" layoutX="53.0" layoutY="177.0" prefHeight="27.0" prefWidth="100.0" />
+      <Label layoutX="10.0" layoutY="217.0" text="Char" />
+      <TextField fx:id="tfChar" alignment="CENTER" layoutX="53.0" layoutY="212.0" prefHeight="27.0" prefWidth="100.0" />
+      <Label layoutX="10.0" layoutY="252.0" text="Hash" />
+      <TextField fx:id="tfHash" alignment="CENTER" layoutX="53.0" layoutY="247.0" prefHeight="27.0" prefWidth="100.0" />
+      <Label layoutX="16.0" layoutY="70.0" text="SuchString" />
+      <TextField fx:id="tf2" alignment="CENTER" layoutX="16.0" layoutY="90.0" prefHeight="27.0" prefWidth="415.0" />
+      <TextField fx:id="tfStringT" alignment="CENTER" layoutX="173.0" layoutY="177.0" prefHeight="27.0" prefWidth="100.0" />
+      <TextField fx:id="tfCharT" alignment="CENTER" layoutX="173.0" layoutY="212.0" prefHeight="27.0" prefWidth="100.0" />
+      <TextField fx:id="tfHashT" alignment="CENTER" layoutX="173.0" layoutY="247.0" prefHeight="27.0" prefWidth="100.0" />
+      <Label layoutX="82.0" layoutY="151.0" text="Anzahl" />
+      <Label layoutX="213.0" layoutY="151.0" text="Zeit" />
+   </children>
+</AnchorPane>
