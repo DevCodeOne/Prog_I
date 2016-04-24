@@ -57,7 +57,7 @@ public class Aufgabe5 extends Application {
 				
 				for (int i = 0; i < letters.length; i++) {
 					if (letters[i] != 0) {
-						builder.append(((char) (i + 'a')) + " -> " + letters[i] + "\n");
+						builder.append(String.format("%c -> %d %n", i + 'a', letters[i]));
 					}
 				}
 				
