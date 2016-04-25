@@ -73,6 +73,7 @@ public class Aufgabe1 extends Application {
 		minus.setOnAction(actions);
 		mal.setOnAction(actions);
 		durch.setOnAction(actions);
+		mod.setOnAction(actions);
 		
 		// Aufgabe 4 Anfang
 		plus.setMaxWidth(50);

@@ -15,7 +15,7 @@ public class Aufgabe4 {
 		int lateness = input.nextInt();
 		
 		int new_minutes = (minutes + lateness) % 60; 
-		int new_hours = (hours + ((minutes + lateness) / 60));
+		int new_hours = (hours + ((minutes + lateness) / 60)) % 24;
 		
 		System.out.printf("Neue Ankunftszeit : %d:%d:%d \n", new_hours, new_minutes, seconds);
 		input.close();
