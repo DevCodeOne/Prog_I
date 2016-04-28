@@ -17,11 +17,21 @@ public class TimerTest {
 		};
 		
 		timer.scheduleAtFixedRate(task, 0, 1000);
+		timer.scheduleAtFixedRate(new AndererTest(), 0, 1000);
 		// wenn dus beenden willst timer.cancel
 		
 		Thread.sleep(1000 * ITERATIONEN);
 		
 		timer.cancel();
+		
+	}
+	
+	static class AndererTest extends TimerTask {
+
+		@Override
+		public void run() {
+			System.out.println("So gehts auch");
+		}
 		
 	}
 }
