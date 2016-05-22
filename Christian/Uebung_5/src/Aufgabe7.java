@@ -3,7 +3,7 @@ import java.util.Random;
 public class Aufgabe7 {
 	
 	public static void main(String [] args) {
-		int sizes[] = new int[] {128, 256, 512, 1024};
+		int sizes[] = new int[] {128, 256, 512};
 		
 		for (int i = 0; i < sizes.length; i++) {
 			System.out.println("Größe " + sizes[i]);
@@ -26,7 +26,7 @@ public class Aufgabe7 {
 			
 			time = System.currentTimeMillis(); 
 			
-			double [][] erg2 = mult_ikj(mat1, mat2); 
+			mult_ikj(mat1, mat2); 
 			
 			System.out.println(" " + (System.currentTimeMillis() - time) + " ms");
 			
