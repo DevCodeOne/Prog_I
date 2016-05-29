@@ -1,0 +1,29 @@
+.root{
+    -fx-font-size: 14pt;
+    -fx-font-family: "Arial";
+    -fx-base: rgb(208,208,208);
+    -fx-background: #FFCC66;
+}
+
+
+.button {
+    -fx-text-fill: white;
+    -fx-font-family: "Arial Narrow";
+    -fx-font-weight: bold;
+    -fx-background-color: linear-gradient(#61a2b1, #2A5058);
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+}
+
+.button:hover {
+    -fx-background-color: linear-gradient(#2A5058, #61a2b1);
+}
+
+.list-cell:filled:selected:focused, .list-cell:filled:selected {
+    -fx-background-color: linear-gradient(#328BDB 0%, #207BCF 25%, #1973C9 75%, #0A65BF 100%);
+    -fx-text-fill: white;
+}
+
+.list-cell:odd {
+    -fx-cell-hover-color: #0093ff;
+    -fx-background-color: white;
+}
