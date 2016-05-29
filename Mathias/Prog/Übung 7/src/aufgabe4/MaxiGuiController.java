@@ -61,8 +61,7 @@ public class MaxiGuiController {
 
 		Dialog<Buch> dialog = new Dialog<>();
 		dialog.getDialogPane().setContent(dialogPane);
-		dialog.
-
+		dialog.getDialogPane().getStylesheets().add(getClass().getResource("application.css").toExternalForm());
 		ButtonType buttonTypeOK = new ButtonType("Übernehmen", ButtonData.OK_DONE);
 		ButtonType buttonTypeCancel = new ButtonType("Abbrechen", ButtonData.CANCEL_CLOSE);
 		dialog.getDialogPane().getButtonTypes().addAll(buttonTypeCancel, buttonTypeOK);
@@ -102,6 +101,7 @@ public class MaxiGuiController {
 
 		Dialog<Buch> dialog = new Dialog<>();
 		dialog.getDialogPane().setContent(dialogPane);
+		dialog.getDialogPane().getStylesheets().add(getClass().getResource("application.css").toExternalForm());
 
 		ButtonType buttonTypeOK = new ButtonType("Übernehmen", ButtonData.OK_DONE);
 		ButtonType buttonTypeCancel = new ButtonType("Abbrechen", ButtonData.CANCEL_CLOSE);
