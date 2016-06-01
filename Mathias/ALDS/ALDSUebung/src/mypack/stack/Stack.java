@@ -1,4 +1,4 @@
-package Uebung130;
+package mypack.stack;
 
 public class Stack {
 	Object[] s;
@@ -28,7 +28,7 @@ public class Stack {
 	}
 
 	public Object top() throws StackUnderflow {
-		if (index <= 0) {
+		if (index < 0) {
 			throw new StackUnderflow();
 		} else {
 			return s[index - 1];
@@ -36,7 +36,7 @@ public class Stack {
 	}
 
 	public boolean empty() {
-		return index < 0;
+		return index <= 0;
 	}
 
 	public void test() {

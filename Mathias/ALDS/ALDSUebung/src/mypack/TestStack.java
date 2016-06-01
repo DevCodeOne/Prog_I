@@ -1,6 +1,8 @@
-package Uebung130;
+package mypack;
 
 import java.util.Scanner;
+
+import mypack.stack.Stack;
 
 public class TestStack {
 	static Scanner sc = new Scanner(System.in);

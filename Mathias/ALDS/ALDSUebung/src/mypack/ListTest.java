@@ -24,24 +24,24 @@ public class ListTest {
             if(choice==-1) {
                 System.out.println();
                 System.out.println(" 0. Programm beenden");
-                System.out.println(" 1. Liste löschen");
+                System.out.println(" 1. Liste lï¿½schen");
                 System.out.println(" 2. Liste ausgeben (iterativ)");
                 System.out.println(" 3. Liste ausgeben (rekursiv)");
                 System.out.println(" 4. Liste umgekehrt ausgeben (rekursiv)");
                 System.out.println(" 5. Liste umkehren (rekursiv)");
-                System.out.println(" 6. Element hinzufügen (am Anfang)");
-                System.out.println(" 7. Element hinzufügen (am Ende)");
-                System.out.println(" 8. Element hinzufügen (Sortierreihenfolge)");
-                System.out.println(" 9. Element löschen (iterativ)");
-                System.out.println("10. Element löschen (rekursiv)");
+                System.out.println(" 6. Element hinzufï¿½gen (am Anfang)");
+                System.out.println(" 7. Element hinzufï¿½gen (am Ende)");
+                System.out.println(" 8. Element hinzufï¿½gen (Sortierreihenfolge)");
+                System.out.println(" 9. Element lï¿½schen (iterativ)");
+                System.out.println("10. Element lï¿½schen (rekursiv)");
                 System.out.println("11. Element suchen (iterativ)");
                 System.out.println("12. Element suchen (rekursiv)");
-                System.out.println("13. Element zählen (iterativ)");
-                System.out.println("14. Element zählen (rekursiv)");
-                System.out.println("15. Listenlänge bestimmen (iterativ)");
-                System.out.println("16. Listenlänge bestimmen (rekursiv)");
-                System.out.println("17. Aufsteigende Sortierung überprüfen (iterativ)");
-                System.out.println("18. Aufsteigende Sortierung überprüfen (rekursiv)");
+                System.out.println("13. Element zï¿½hlen (iterativ)");
+                System.out.println("14. Element zï¿½hlen (rekursiv)");
+                System.out.println("15. Listenlï¿½nge bestimmen (iterativ)");
+                System.out.println("16. Listenlï¿½nge bestimmen (rekursiv)");
+                System.out.println("17. Aufsteigende Sortierung ï¿½berprï¿½fen (iterativ)");
+                System.out.println("18. Aufsteigende Sortierung ï¿½berprï¿½fen (rekursiv)");
                 System.out.println("42. Liste vorbelegen (unsortiert)");
                 System.out.println("43. Liste vorbelegen (sortiert)");
             }

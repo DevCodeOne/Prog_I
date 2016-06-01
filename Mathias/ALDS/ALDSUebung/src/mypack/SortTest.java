@@ -8,8 +8,8 @@ import mypack.list.*;
 public class SortTest 
 {
     private static String [] vName= {"Bernd", "Natalie", "Kathrin", "Martin", "Michael", "Thomas", "Judith", "Ullrich", "Tina", "Udo", "Rolf", "Klaus", "Fritz", "Sebb"};
-    private static String [] nName= {"Weber", "Brot", "Schiwy", "Bunke", "Braun", "Schmidt", "Schmid", "Schmit", "Schmitt", "Weber", "Meier", "Metzger", "Müller", "Rössler"};
-    private static String [] hobby= {"Surfen", "Schwimmen", "Reiten", "Fußball", "Lesen", "Malen", "Kung-Fu", "Kegeln", "Tennis", "Laufen", "Hallen-Halma", "Tanzen", "Angeln"};
+    private static String [] nName= {"Weber", "Brot", "Schiwy", "Bunke", "Braun", "Schmidt", "Schmid", "Schmit", "Schmitt", "Weber", "Meier", "Metzger", "MÃ¶ller", "RÃ¶ssler"};
+    private static String [] hobby= {"Surfen", "Schwimmen", "Reiten", "FuÃŸball", "Lesen", "Malen", "Kung-Fu", "Kegeln", "Tennis", "Laufen", "Hallen-Halma", "Tanzen", "Angeln"};
     
     
     public static void main(String[] args)  
@@ -36,8 +36,8 @@ public class SortTest
                 System.out.println(" 3. Liste sortieren (Selection)");
                 System.out.println(" 4. Liste sortieren (Insertion)");
                 System.out.println(" 5. Liste sortieren (Bubble)");
-                System.out.println("42. Sortierordnung ändern");
-                System.out.println("43. Sortierrichtung ändern");
+                System.out.println("42. Sortierordnung Ã¤ndern");
+                System.out.println("43. Sortierrichtung Ã¤ndern");
             }
            
             System.out.print("Eingabe: ");
@@ -54,8 +54,9 @@ public class SortTest
             {   
                 case 1:
                     int size;
+                    long time;
                     
-                    System.out.print("Länge: ");
+                    System.out.print("Lï¿½nge: ");
                     try
                     {   // read a line and convert it to integer
                         input = buffer.readLine().trim();
@@ -80,8 +81,24 @@ public class SortTest
                     break;
                 case 3:
                     Element.setCompareCounter(0);
+                    time = System.nanoTime();
                     if(list!=null) list.selectionSort(aufsteigend);
                     System.out.println(Element.getCompareCounter()+ " Vergleiche bei "+list.getSize()+" Elementen");
+                    System.out.println("In " + (System.nanoTime()-time) + "ms");
+                    break;
+                case 4:
+                    Element.setCompareCounter(0);
+                    if(list!=null) list.insertionSort(aufsteigend);
+                    time = System.nanoTime();
+                    System.out.println(Element.getCompareCounter()+ " Vergleiche bei "+list.getSize()+" Elementen");
+                    System.out.println("In " + (System.nanoTime()-time) + "ms");
+                    break;
+                case 5:
+                    Element.setCompareCounter(0);
+                    if(list!=null) list.bubbleSort(aufsteigend);
+                    time = System.nanoTime();
+                    System.out.println(Element.getCompareCounter()+ " Vergleiche bei "+list.getSize()+" Elementen");
+                    System.out.println("In " + (System.nanoTime()-time) + "ms");
                     break;
                 case 42:  
                     StringTokenizer st;
@@ -101,7 +118,7 @@ public class SortTest
                         sortOrder=new int[st.countTokens()];
                         for(int i=0; i<sortOrder.length; i++) 
                         {   sortOrder[i]=Integer.parseInt(st.nextToken());
-                            // jeder sort-Order Eintrag größergleich 0 und kleiner #Attribute
+                            // jeder sort-Order Eintrag grï¿½ï¿½ergleich 0 und kleiner #Attribute
                             if((sortOrder[i]<0) || (sortOrder[i]>=Element.getNumberOfAttributes()))
                                 throw new Exception();
                         }

@@ -1,4 +1,4 @@
-package Uebung130;
+package mypack.stack;
 
 @SuppressWarnings("serial")
 public class StackOverflow extends Exception {
