@@ -28,4 +28,31 @@ public class AdresseTest {
 
         assertTrue(ort.equals("HOM"));
     }
+
+    @Test
+    public void testAdresse1(){
+        Adresse adr = new Adresse("strasse", "12345", "HOM");
+
+        assertTrue(adr.getPlz().equals("12345"));
+        assertTrue(adr.getOrt().equals("HOM"));
+        assertTrue(adr.getStrasse().equals("strasse"));
+    }
+
+    @Test
+    public void testAdresse2(){
+        Adresse adr = new Adresse("strasse", "1234", "HOM");
+
+        assertTrue(adr.getPlz().equals("12345"));
+        assertTrue(adr.getOrt().equals("HOM"));
+        assertTrue(adr.getStrasse().equals("strasse"));
+    }
+
+    @Test
+    public void testAdresse3(){
+        Adresse adr = new Adresse("strasse", "12345", "ZW");
+
+        assertTrue(adr.getPlz().equals("12345"));
+        assertTrue(adr.getOrt().equals("HOM"));
+        assertTrue(adr.getStrasse().equals("strasse"));
+    }
 }
