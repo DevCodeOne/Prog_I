@@ -22,8 +22,8 @@ public class Aufgabe2 extends Application
 	{
 		primaryStage.setTitle("Aufgabe 2 - Geldbetrag");
 		
-		Label fünfzig = new Label("50 Cent: ");
-		TextField tfünfzig = new TextField();
+		Label fï¿½nfzig = new Label("50 Cent: ");
+		TextField tfï¿½nfzig = new TextField();
 		Label zwei = new Label("2 Cent: ");
 		TextField tzwei = new TextField();
 		Label eins = new Label("1 Cent: ");
@@ -33,9 +33,9 @@ public class Aufgabe2 extends Application
 		Label betrag = new Label("Betrag: ");
 		TextField tbetrag = new TextField();
 		
-		HBox hfünfzig = new HBox(10);
-		hfünfzig.getChildren().addAll(fünfzig, tfünfzig);
-		hfünfzig.setAlignment(Pos.CENTER);
+		HBox hfï¿½nfzig = new HBox(10);
+		hfï¿½nfzig.getChildren().addAll(fï¿½nfzig, tfï¿½nfzig);
+		hfï¿½nfzig.setAlignment(Pos.CENTER);
 		HBox hzwei = new HBox(10);
 		hzwei.getChildren().addAll(zwei, tzwei);
 		hzwei.setAlignment(Pos.CENTER);
@@ -51,7 +51,7 @@ public class Aufgabe2 extends Application
 		
 		VBox v = new VBox(10);
 		v.setPadding(new Insets(10));
-		v.getChildren().addAll(hfünfzig, hzwei, heins, hb, s, hbetrag);
+		v.getChildren().addAll(hfï¿½nfzig, hzwei, heins, hb, s, hbetrag);
 		
 		Scene scene = new Scene(v);
 		primaryStage.setScene(scene);
@@ -61,12 +61,12 @@ public class Aufgabe2 extends Application
 		{
 			public void handle(ActionEvent ae)
 			{
-				double efünfzig = 50 * Integer.parseInt(tfünfzig.getText());
+				double efï¿½nfzig = 50 * Integer.parseInt(tfï¿½nfzig.getText());
 				double ezwei = 2* Integer.parseInt(tzwei.getText());
 				double eeins = Integer.parseInt(teins.getText());
-				tbetrag.setText(" " + ((efünfzig + ezwei + eeins)/100));
+				tbetrag.setText(" " + ((efï¿½nfzig + ezwei + eeins)/100));
 			}
-		});
+		})
 		
 	}
 

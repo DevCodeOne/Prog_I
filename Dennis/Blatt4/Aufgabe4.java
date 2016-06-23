@@ -24,8 +24,8 @@ public class Aufgabe4 extends Application
 		TextField tplanh = new TextField();
 		TextField tplanm = new TextField();
 		TextField tplans = new TextField();
-		Label lspät = new Label("Verspätung: ");
-		TextField tspät = new TextField();
+		Label lspï¿½t = new Label("Verspï¿½tung: ");
+		TextField tspï¿½t = new TextField();
 		Button bneu = new Button("neue Zeit berechnen!");
 		Separator s = new Separator();
 		Label ldanach = new Label("Neue Ankunftszeit: ");
@@ -34,9 +34,9 @@ public class Aufgabe4 extends Application
 		HBox hplan = new HBox(10);
 		hplan.getChildren().addAll(lplan, tplanh, tplanm, tplans);
 		hplan.setAlignment(Pos.CENTER);
-		HBox hspät = new HBox(10);
-		hspät.getChildren().addAll(lspät, tspät);
-		hspät.setAlignment(Pos.CENTER);
+		HBox hspï¿½t = new HBox(10);
+		hspï¿½t.getChildren().addAll(lspï¿½t, tspï¿½t);
+		hspï¿½t.setAlignment(Pos.CENTER);
 		HBox hneu = new HBox(10);
 		hneu.getChildren().addAll(bneu);
 		hneu.setAlignment(Pos.CENTER);
@@ -46,7 +46,7 @@ public class Aufgabe4 extends Application
 		
 		VBox v = new VBox(10);
 		v.setPadding(new Insets(10));
-		v.getChildren().addAll(hplan, hspät, hneu, s, hdanach);
+		v.getChildren().addAll(hplan, hspï¿½t, hneu, s, hdanach);
 		
 		Scene scene = new Scene(v);
 		primaryStage.setScene(scene);
@@ -59,12 +59,12 @@ public class Aufgabe4 extends Application
 				int vzeith = Integer.parseInt(tplanh.getText());
 				int vzeitm = Integer.parseInt(tplanm.getText());
 				int vzeits = Integer.parseInt(tplans.getText());
-				int verspätung = Integer.parseInt(tspät.getText());				
-				int nzeith = (vzeith + ((vzeitm + verspätung) / 60)) % 24;
-				int nzeitm =(vzeitm + verspätung) % 60;
+				int verspï¿½tung = Integer.parseInt(tspï¿½t.getText());				
+				int nzeith = (vzeith + ((vzeitm + verspï¿½tung) / 60)) % 24;
+				int nzeitm =(vzeitm + verspï¿½tung) % 60;
 				tdanach.setText(" " + nzeith + ":" + nzeitm + ":" + vzeits);
 			}
-		});
+		})
 	}
 
 	public static void main(String[] args) 
